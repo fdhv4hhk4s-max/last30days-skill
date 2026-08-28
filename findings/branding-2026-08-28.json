@@ -1,0 +1,62 @@
+{
+  "domain": "AI branding, visual identity, and creative production: illustration, motion, video, product photography",
+  "feeds": {
+    "category": null,
+    "sources": [
+      "reddit",
+      "hackernews"
+    ],
+    "subreddits": [
+      "all"
+    ]
+  },
+  "generated_at": "2026-08-28T11:58:37.907635Z",
+  "kind": "discovery",
+  "outcome": "ok",
+  "results": [
+    {
+      "command": "/last30days \"SubSmith Turn\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "reddit": {
+          "num_comments": 1843
+        }
+      },
+      "evidence_urls": [
+        "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vplboa/marvels_wolverine_almost_had_a_crossbow_adaptive/",
+        "https://www.reddit.com/r/SanJoseSharks/comments/1vpyrrp/will_smith_deep_dive_skills_reputation_and_things/",
+        "https://www.reddit.com/r/superheroes/comments/1vw9y5x/best_superheroes_not_from_marveldc_day_29/",
+        "https://www.reddit.com/r/Cricket/comments/1vm1bws/will_bangladesh_be_a_disaster_against_australia/",
+        "https://www.reddit.com/r/ClevelandGuardians/comments/1vjvc3s/game_thread_guardians_5860_white_sox_6056_august/"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 1,
+      "sources": [
+        "reddit"
+      ],
+      "top_comment": null,
+      "topic": "SubSmith Turn",
+      "velocity_score": 966.89,
+      "why_spiking": "6 evidence items on reddit generated 3,569 native interactions. Show HN: SubSmith \u2013 Turn your own videos into language-learning material",
+      "x_article_angle": null
+    }
+  ],
+  "schema_version": "1.1",
+  "source_status": {
+    "digg": "skipped-unconfigured",
+    "hackernews": "ok",
+    "reddit": "auth-failed",
+    "x": "skipped-unconfigured"
+  },
+  "warnings": [
+    "Fewer than five topic clusters cleared the confidence floor this window.",
+    "Discovery evidence is single-source; configure Digg for broader confirmation.",
+    "Some discovery sources degraded: reddit."
+  ],
+  "weak_signal": null,
+  "window_days": 30
+}

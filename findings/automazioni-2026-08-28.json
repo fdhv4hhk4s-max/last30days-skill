@@ -1,0 +1,93 @@
+{
+  "domain": "AI business automation and agentic workflows for creative agencies: MCP, invoicing, email, KPI",
+  "feeds": {
+    "category": null,
+    "sources": [
+      "reddit",
+      "hackernews"
+    ],
+    "subreddits": [
+      "all"
+    ]
+  },
+  "generated_at": "2026-08-28T11:59:05.512946Z",
+  "kind": "discovery",
+  "outcome": "ok",
+  "results": [
+    {
+      "command": "/last30days \"Terminal-Bench-Science Evaluating AI agents\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 746,
+          "points": 1139
+        }
+      },
+      "evidence_urls": [
+        "https://www.terminal-bench-science.ai/announcement",
+        "https://acceptmarkdown.com/",
+        "https://www.docker.com/products/docker-sandboxes/",
+        "https://secitbench.cribl.io/",
+        "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 1,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "Terminal-Bench-Science Evaluating AI agents",
+      "velocity_score": 784.62,
+      "why_spiking": "6 evidence items on hackernews generated 1,885 native interactions. Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
+      "x_article_angle": null
+    },
+    {
+      "command": "/last30days \"Muse Glimmer 30B-parameter\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 651,
+          "points": 1255
+        }
+      },
+      "evidence_urls": [
+        "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://twitter.com/finkd/status/2086755195535413696",
+        "https://abstractextraordinary.com/blog/how-muse-glimmer-fits-an-agent-on-your-device/",
+        "https://developer.meta.com/ai/models/muse-glimmer/"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 2,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "Muse Glimmer 30B-parameter",
+      "velocity_score": 439.07,
+      "why_spiking": "4 evidence items on hackernews generated 1,906 native interactions. Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "x_article_angle": null
+    }
+  ],
+  "schema_version": "1.1",
+  "source_status": {
+    "digg": "skipped-unconfigured",
+    "hackernews": "ok",
+    "reddit": "auth-failed",
+    "x": "skipped-unconfigured"
+  },
+  "warnings": [
+    "Fewer than five topic clusters cleared the confidence floor this window.",
+    "Discovery evidence is single-source; configure Digg for broader confirmation.",
+    "Some discovery sources degraded: reddit."
+  ],
+  "weak_signal": null,
+  "window_days": 30
+}
