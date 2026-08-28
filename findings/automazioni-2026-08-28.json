@@ -4,13 +4,14 @@
     "category": null,
     "sources": [
       "reddit",
-      "hackernews"
+      "hackernews",
+      "digg"
     ],
     "subreddits": [
       "all"
     ]
   },
-  "generated_at": "2026-08-28T11:59:05.512946Z",
+  "generated_at": "2026-08-28T12:40:17.861660Z",
   "kind": "discovery",
   "outcome": "ok",
   "results": [
@@ -20,8 +21,8 @@
       "covered": false,
       "engagement": {
         "hackernews": {
-          "comments": 746,
-          "points": 1139
+          "comments": 747,
+          "points": 1142
         }
       },
       "evidence_urls": [
@@ -41,8 +42,8 @@
       ],
       "top_comment": null,
       "topic": "Terminal-Bench-Science Evaluating AI agents",
-      "velocity_score": 784.62,
-      "why_spiking": "6 evidence items on hackernews generated 1,885 native interactions. Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
+      "velocity_score": 790.62,
+      "why_spiking": "6 evidence items on hackernews generated 1,889 native interactions. Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
       "x_article_angle": null
     },
     {
@@ -78,7 +79,7 @@
   ],
   "schema_version": "1.1",
   "source_status": {
-    "digg": "skipped-unconfigured",
+    "digg": "rate-limited",
     "hackernews": "ok",
     "reddit": "auth-failed",
     "x": "skipped-unconfigured"
@@ -86,7 +87,7 @@
   "warnings": [
     "Fewer than five topic clusters cleared the confidence floor this window.",
     "Discovery evidence is single-source; configure Digg for broader confirmation.",
-    "Some discovery sources degraded: reddit."
+    "Some discovery sources degraded: digg, reddit."
   ],
   "weak_signal": null,
   "window_days": 30

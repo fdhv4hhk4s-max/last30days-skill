@@ -4,26 +4,27 @@
     "category": null,
     "sources": [
       "reddit",
-      "hackernews"
+      "hackernews",
+      "digg"
     ],
     "subreddits": [
       "all"
     ]
   },
-  "generated_at": "2026-08-28T11:58:38.766157Z",
+  "generated_at": "2026-08-28T12:39:56.028403Z",
   "kind": "discovery",
   "outcome": "nothing-solid",
   "results": [],
   "schema_version": "1.1",
   "source_status": {
-    "digg": "skipped-unconfigured",
+    "digg": "rate-limited",
     "hackernews": "no-results",
     "reddit": "auth-failed",
     "x": "skipped-unconfigured"
   },
   "warnings": [
     "No topic cleared the discovery confidence floor this window; reporting nothing solid instead of ranked noise.",
-    "Some discovery sources degraded: reddit."
+    "Some discovery sources degraded: digg, reddit."
   ],
   "weak_signal": null,
   "window_days": 30
