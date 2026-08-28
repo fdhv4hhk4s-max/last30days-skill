@@ -1,0 +1,48 @@
+name: last30days scan
+
+on:
+  schedule:
+    # Ogni 15 giorni circa: giorno 1 e giorno 15 del mese, ore 07:00 UTC
+    - cron: '0 7 1,15 * *'
+  workflow_dispatch: {}   # bottone "Run workflow" per il primo test manuale
+
+permissions:
+  contents: write   # serve per fare il commit dei risultati nel repo
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Crea cartella output
+        run: mkdir -p findings
+
+      - name: Scan - Branding (identita, illustrazione, motion, video, produzione visiva)
+        run: |
+          python3 skills/last30days/scripts/last30days.py --discover "AI branding, visual identity, and creative production: illustration, motion, video, product photography" \
+            --emit=json --output findings/branding-$(date +%Y-%m-%d).json
+
+      - name: Scan - Marketing (campagne, ads, contenuti, posizionamento)
+        run: |
+          python3 skills/last30days/scripts/last30days.py --discover "AI marketing: advertising campaigns, content strategy, positioning, client acquisition" \
+            --emit=json --output findings/marketing-$(date +%Y-%m-%d).json
+
+      - name: Scan - Automazioni (workflow agenzia, MCP, business ops)
+        run: |
+          python3 skills/last30days/scripts/last30days.py --discover "AI business automation and agentic workflows for creative agencies: MCP, invoicing, email, KPI" \
+            --emit=json --output findings/automazioni-$(date +%Y-%m-%d).json
+
+      - name: Commit risultati nel repo
+        run: |
+          git config user.name "last30days-bot"
+          git config user.email "actions@github.com"
+          git add findings/
+          git diff --cached --quiet && echo "Nessun cambiamento" || git commit -m "last30days scan $(date +%Y-%m-%d)"
+          git push
