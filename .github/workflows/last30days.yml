@@ -21,6 +21,13 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Installa CLI gratuiti extra (Digg, arXiv, Techmeme) - nessuna chiave richiesta
+        run: |
+          npx -y @mvanhorn/printing-press-library@0.1.16 install digg --cli-only
+          npx -y @mvanhorn/printing-press-library@0.1.16 install arxiv --cli-only
+          npx -y @mvanhorn/printing-press-library@0.1.16 install techmeme --cli-only
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
       - name: Crea cartella output
         run: mkdir -p findings
 
