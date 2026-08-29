@@ -34,17 +34,17 @@ jobs:
       - name: Scan - Branding (identita, illustrazione, motion, video, produzione visiva)
         run: |
           python3 skills/last30days/scripts/last30days.py --discover "AI branding, visual identity, and creative production: illustration, motion, video, product photography" \
-            --emit=json --output findings/branding-$(date +%Y-%m-%d).json
+            --emit=json --output findings/branding-$(date +%Y-%m-%d).json --search=hackernews,digg,arxiv,techmeme
 
       - name: Scan - Marketing (campagne, ads, contenuti, posizionamento)
         run: |
           python3 skills/last30days/scripts/last30days.py --discover "AI marketing: advertising campaigns, content strategy, positioning, client acquisition" \
-            --emit=json --output findings/marketing-$(date +%Y-%m-%d).json
+            --emit=json --output findings/marketing-$(date +%Y-%m-%d).json --search=hackernews,digg,arxiv,techmeme
 
       - name: Scan - Automazioni (workflow agenzia, MCP, business ops)
         run: |
           python3 skills/last30days/scripts/last30days.py --discover "AI business automation and agentic workflows for creative agencies: MCP, invoicing, email, KPI" \
-            --emit=json --output findings/automazioni-$(date +%Y-%m-%d).json
+            --emit=json --output findings/automazioni-$(date +%Y-%m-%d).json --search=hackernews,digg,arxiv,techmeme
 
       - name: Commit risultati nel repo
         run: |
