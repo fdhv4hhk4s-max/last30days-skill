@@ -1,0 +1,59 @@
+{
+  "domain": "AI branding, visual identity, and creative production: illustration, motion, video, product photography",
+  "feeds": {
+    "category": null,
+    "sources": [
+      "reddit",
+      "hackernews",
+      "digg"
+    ],
+    "subreddits": [
+      "all"
+    ]
+  },
+  "generated_at": "2026-08-29T11:32:26.970949Z",
+  "kind": "discovery",
+  "outcome": "ok",
+  "results": [
+    {
+      "command": "/last30days \"Visual Analysis of Binary Files\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "reddit": {
+          "num_comments": 120
+        }
+      },
+      "evidence_urls": [
+        "https://www.reddit.com/r/nexusmods/comments/1veccpq/p40l0x_mods_are_everywhere_why_is_this_guy_still/"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 1,
+      "sources": [
+        "reddit"
+      ],
+      "top_comment": null,
+      "topic": "Visual Analysis of Binary Files",
+      "velocity_score": 119.7,
+      "why_spiking": "1 evidence item on reddit generated 622 native interactions. Visual Analysis of Binary Files",
+      "x_article_angle": null
+    }
+  ],
+  "schema_version": "1.1",
+  "source_status": {
+    "digg": "rate-limited",
+    "hackernews": "ok",
+    "reddit": "auth-failed",
+    "x": "skipped-unconfigured"
+  },
+  "warnings": [
+    "Fewer than five topic clusters cleared the confidence floor this window.",
+    "Discovery evidence is single-source; configure Digg for broader confirmation.",
+    "Some discovery sources degraded: digg, reddit."
+  ],
+  "weak_signal": null,
+  "window_days": 30
+}
