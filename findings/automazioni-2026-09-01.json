@@ -1,0 +1,62 @@
+{
+  "domain": "AI business automation and agentic workflows for creative agencies: MCP, invoicing, email, KPI",
+  "feeds": {
+    "category": null,
+    "sources": [
+      "hackernews",
+      "digg"
+    ],
+    "subreddits": [
+      "all"
+    ]
+  },
+  "generated_at": "2026-09-01T12:31:05.049274Z",
+  "kind": "discovery",
+  "outcome": "ok",
+  "results": [
+    {
+      "command": "/last30days \"Muse Glimmer 30B-parameter\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 651,
+          "points": 1255
+        }
+      },
+      "evidence_urls": [
+        "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://twitter.com/finkd/status/2086755195535413696",
+        "https://abstractextraordinary.com/blog/how-muse-glimmer-fits-an-agent-on-your-device/",
+        "https://developer.meta.com/ai/models/muse-glimmer/"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 1,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "Muse Glimmer 30B-parameter",
+      "velocity_score": 398.67,
+      "why_spiking": "4 evidence items on hackernews generated 1,906 native interactions. Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "x_article_angle": null
+    }
+  ],
+  "schema_version": "1.1",
+  "source_status": {
+    "digg": "rate-limited",
+    "hackernews": "ok",
+    "reddit": "skipped-unconfigured",
+    "x": "skipped-unconfigured"
+  },
+  "warnings": [
+    "Fewer than five topic clusters cleared the confidence floor this window.",
+    "Discovery evidence is single-source; configure Digg for broader confirmation.",
+    "Some discovery sources degraded: digg."
+  ],
+  "weak_signal": null,
+  "window_days": 30
+}

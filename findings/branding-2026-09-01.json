@@ -1,0 +1,91 @@
+{
+  "domain": "AI branding, visual identity, and creative production: illustration, motion, video, product photography",
+  "feeds": {
+    "category": null,
+    "sources": [
+      "hackernews",
+      "digg"
+    ],
+    "subreddits": [
+      "all"
+    ]
+  },
+  "generated_at": "2026-09-01T12:31:02.986198Z",
+  "kind": "discovery",
+  "outcome": "ok",
+  "results": [
+    {
+      "command": "/last30days \"Terence Tao explains 6\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 65,
+          "points": 472
+        }
+      },
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=OOMx2BHHWtE",
+        "https://bigthink.com/series/full-interview/6-essential-mathematical-concepts/"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 1,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "Terence Tao explains 6",
+      "velocity_score": 462.8,
+      "why_spiking": "2 evidence items on hackernews generated 537 native interactions. Terence Tao explains 6 essential mathematical concepts [video]",
+      "x_article_angle": null
+    },
+    {
+      "command": "/last30days \"ASCII HTML\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 50,
+          "points": 374
+        }
+      },
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=3YtygAx_C6A",
+        "https://github.com/MiguelCarino/CyberCity",
+        "https://sometimes.digital/posts/ascii-art-video-stream/",
+        "https://www.youtube.com/watch?v=DSRooHo_HSI",
+        "https://demozoo.org/productions/396656/"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 2,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "ASCII HTML",
+      "velocity_score": 435.69,
+      "why_spiking": "6 evidence items on hackernews generated 424 native interactions. A walkable ASCII cyberpunk city in one HTML file [video]",
+      "x_article_angle": null
+    }
+  ],
+  "schema_version": "1.1",
+  "source_status": {
+    "digg": "rate-limited",
+    "hackernews": "ok",
+    "reddit": "skipped-unconfigured",
+    "x": "skipped-unconfigured"
+  },
+  "warnings": [
+    "Fewer than five topic clusters cleared the confidence floor this window.",
+    "Discovery evidence is single-source; configure Digg for broader confirmation.",
+    "Some discovery sources degraded: digg."
+  ],
+  "weak_signal": null,
+  "window_days": 30
+}
