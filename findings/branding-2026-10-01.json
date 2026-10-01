@@ -1,0 +1,90 @@
+{
+  "domain": "AI branding, visual identity, and creative production: illustration, motion, video, product photography",
+  "feeds": {
+    "category": null,
+    "sources": [
+      "hackernews",
+      "digg"
+    ],
+    "subreddits": [
+      "all"
+    ]
+  },
+  "generated_at": "2026-10-01T14:23:34.501116Z",
+  "kind": "discovery",
+  "outcome": "ok",
+  "results": [
+    {
+      "command": "/last30days \"1800s illustrations\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 267,
+          "points": 2391
+        }
+      },
+      "evidence_urls": [
+        "https://github.com/arnegiacomo/fugleramme"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 1,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "1800s illustrations",
+      "velocity_score": 644.66,
+      "why_spiking": "1 evidence item on hackernews generated 2,658 native interactions. Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "x_article_angle": null
+    },
+    {
+      "command": "/last30days \"FTC OpenAI Anthropic AI companies\"",
+      "corroboration_count": 1,
+      "covered": false,
+      "engagement": {
+        "hackernews": {
+          "comments": 276,
+          "points": 556
+        }
+      },
+      "evidence_urls": [
+        "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+        "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+        "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+        "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+        "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
+      ],
+      "last_surfaced": null,
+      "momentum": "building",
+      "podcast_angle": null,
+      "previously_surfaced_count": 0,
+      "rank": 2,
+      "sources": [
+        "hackernews"
+      ],
+      "top_comment": null,
+      "topic": "FTC OpenAI Anthropic AI companies",
+      "velocity_score": 377.83,
+      "why_spiking": "6 evidence items on hackernews generated 832 native interactions. FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "x_article_angle": null
+    }
+  ],
+  "schema_version": "1.1",
+  "source_status": {
+    "digg": "rate-limited",
+    "hackernews": "ok",
+    "reddit": "skipped-unconfigured",
+    "x": "skipped-unconfigured"
+  },
+  "warnings": [
+    "Fewer than five topic clusters cleared the confidence floor this window.",
+    "Discovery evidence is single-source; configure Digg for broader confirmation.",
+    "Some discovery sources degraded: digg."
+  ],
+  "weak_signal": null,
+  "window_days": 30
+}
